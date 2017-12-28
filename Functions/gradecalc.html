@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Assignment</title>
+  <script>
+    var math = parseInt(prompt("Hi Prof, please enter the marks for Math"));
+    var physics = parseInt(prompt("Hi Prof, please enter the marks for Physics"));
+    var chemistry = parseInt(prompt("Hi Prof, please enter the marks for Chemistry"));
+
+    function res() {
+      var avg = (math+physics+chemistry)/3;
+      if(avg < 70 ){
+        alert("The Student recieved grade C");
+      } else if (avg >=70 && avg < 90) {
+        alert("The Student recieved grade B");
+      } else if(avg >= 90 ){
+        alert("The Student recieved grade A")
+      }
+    }
+
+    res()
+
+  </script>
+</head>
+</html>
